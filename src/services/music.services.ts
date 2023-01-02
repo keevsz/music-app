@@ -3,7 +3,7 @@ import axios from 'axios'
 export const SearchService = (searchTerm: string) => {
   const options = {
     headers: {
-      'X-RapidAPI-Key': '84648be45emsh70dce08b291334ep1f84f1jsn2b6161bcff28',
+      'X-RapidAPI-Key': import.meta.env.VITE_KEY,
       'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com',
     },
   }
